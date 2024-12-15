@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<body>
+
+    <div class="contactTitle">
+        <h1>Speaketh With Me</h1>
+    </div>
+
+    <div class="navContainer">
+        <nav> 
+            <a href="./contact.html" class="active">Contact</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./family.html">My Family</a>
+            <a href="./about.html">About</a>
+            <a href="./index.html">Home</a>
+        </nav>
+    </div>
+
+    <div class="contactContainer">
+    
+        <div class="socMeds">
+            <h2><b>Connect with Me</b></h2>
+            <h3>Facebook: <a href="https://www.facebook.com/eli.copter01" target="_blank">John Nicole Libanan</a></h3>
+            <h3>Instagram: <a href="https://www.instagram.com/john_nicole12/" target="_blank">john_nicole12</a></h3>
+        </div>
+
+        <div class="messsageForm">
+            <form action="submit_form" method="POST">
+                <h3><b>Send Me a Message</b></h3>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
